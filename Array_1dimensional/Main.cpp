@@ -32,41 +32,30 @@ using namespace std;
 
 int main()
 {
-	float score[1001];
+	int score[1000];
 	int N;
-	int sum_real=0;
-	float average_real;
-	int max = 0;
+	int max = -1;
 
-	cout << "시험 본 과목의 개수: ";
 	cin >> N;
 
-	cout << "각 과목의 실제 성적: ";
-
-	for (int i = 1; i <= N; i++)
+	for (int i = 0; i < N; i++)
 	{
 		cin >> score[i];
-		sum_real += score[i];
-		
-		if (score[i] > max)
+
+		if (max < score[i])
 		{
 			max = score[i];
 		}
 	}
-	average_real = sum_real / N;
 
-	float average_lie = 0;
-	float sum_lie = 0;
-	
-	for (int i = 1; i <= N; i++)
+	float total = 0;
+	for (int i = 0; i < N; i++)
 	{
-		score[i] = score[i] / max * 100;
-		sum_lie += score[i];
+		total += score[i];
 	}
-	
-	average_lie = sum_lie / N;
+	float average = (total*100) / (max * N);
 
-	cout << average_real << endl << average_lie;
+	cout << average;
 
 	return 0;
 }

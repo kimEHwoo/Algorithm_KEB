@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6c71b782-78a7-46f2-ab90-ee9c408294b4}</ProjectGuid>
-    <RootNamespace>algorithm</RootNamespace>
+    <ProjectGuid>{d960e37b-52fe-431d-b1dd-bb01251d5f64}</ProjectGuid>
+    <RootNamespace>Array1dimensional</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>01_InputAndOutput_FourBasicOperations</ProjectName>
+    <ProjectName>04_Array_1dimensional</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InputAndOutput_FourBasicOperations", "algorithm\algorithm.vcxproj", "{6C71B782-78A7-46F2-AB90-EE9C408294B4}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_InputAndOutput_FourBasicOperations", "algorithm\algorithm.vcxproj", "{6C71B782-78A7-46F2-AB90-EE9C408294B4}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Conditional_Statements", "Conditional_Statements\Conditional_Statements.vcxproj", "{50197355-095E-49F0-BAC3-49AD3ABB756E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_Conditional_Statements", "Conditional_Statements\Conditional_Statements.vcxproj", "{50197355-095E-49F0-BAC3-49AD3ABB756E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Loop", "Loop\Loop.vcxproj", "{0FD9F774-0B90-4CC0-A2B2-CC752C69824B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_Loop", "Loop\Loop.vcxproj", "{0FD9F774-0B90-4CC0-A2B2-CC752C69824B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_Array_1dimensional", "Array_1dimensional\Array_1dimensional.vcxproj", "{D960E37B-52FE-431D-B1DD-BB01251D5F64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,14 @@ Global
 		{0FD9F774-0B90-4CC0-A2B2-CC752C69824B}.Release|x64.Build.0 = Release|x64
 		{0FD9F774-0B90-4CC0-A2B2-CC752C69824B}.Release|x86.ActiveCfg = Release|Win32
 		{0FD9F774-0B90-4CC0-A2B2-CC752C69824B}.Release|x86.Build.0 = Release|Win32
+		{D960E37B-52FE-431D-B1DD-BB01251D5F64}.Debug|x64.ActiveCfg = Debug|x64
+		{D960E37B-52FE-431D-B1DD-BB01251D5F64}.Debug|x64.Build.0 = Debug|x64
+		{D960E37B-52FE-431D-B1DD-BB01251D5F64}.Debug|x86.ActiveCfg = Debug|Win32
+		{D960E37B-52FE-431D-B1DD-BB01251D5F64}.Debug|x86.Build.0 = Debug|Win32
+		{D960E37B-52FE-431D-B1DD-BB01251D5F64}.Release|x64.ActiveCfg = Release|x64
+		{D960E37B-52FE-431D-B1DD-BB01251D5F64}.Release|x64.Build.0 = Release|x64
+		{D960E37B-52FE-431D-B1DD-BB01251D5F64}.Release|x86.ActiveCfg = Release|Win32
+		{D960E37B-52FE-431D-B1DD-BB01251D5F64}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
